@@ -27,7 +27,7 @@ class _LoginScreen extends State<LoginScreen> {
   TextEditingController phoneNumberController = TextEditingController();
   final TextEditingController _pinPutController = TextEditingController();
 
-  FirebaseAuth _auth = FirebaseAuth.instance;
+  final FirebaseAuth _auth = FirebaseAuth.instance;
 
   final FocusNode _pinPutFocusNode = FocusNode();
 
